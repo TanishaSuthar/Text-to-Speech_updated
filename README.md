@@ -30,7 +30,7 @@ Run the server:
 ```bash
 uvicorn main:app --reload
 
-**## Features**
+## Testing
 http://127.0.0.1:8000/docs
 
 
