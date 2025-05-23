@@ -8,6 +8,12 @@ This FastAPI-based API translates text between English and Hindi using Argos Tra
 - Convert translated text to spoken audio
 - Simple REST API with Swagger UI documentation
 
+##Structure
+├── main.py             # FastAPI application code
+├── install_model.py    # Script to install Argos Translate models
+├── audio/              # Directory where generated audio files are saved
+└── README.md           # Project documentation
+
 ## Technologies Used
 - **FastAPI**: For building the RESTful API and providing interactive Swagger documentation.  
 - **Argos Translate**: Open-source neural machine translation library for language translation between English and Hindi.  
@@ -17,10 +23,14 @@ This FastAPI-based API translates text between English and Hindi using Argos Tra
 
 ## Installation
 1. Clone the repository  
-2. Install dependencies: `pip install -r requirements.txt`  
-3. Install Argos Translate models by running: `python install_model.py`
+2. Install Argos Translate models by running: `python install_model.py`
 
 ## Usage
 Run the server:  
 ```bash
 uvicorn main:app --reload
+
+##Testing
+http://127.0.0.1:8000/docs
+
+
