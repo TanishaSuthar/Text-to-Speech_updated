@@ -8,7 +8,7 @@ This FastAPI-based API translates text between English and Hindi using Argos Tra
 - Convert translated text to spoken audio
 - Simple REST API with Swagger UI documentation
 
-##Structure
+## Structure
 ├── main.py             # FastAPI application code
 ├── install_model.py    # Script to install Argos Translate models
 ├── audio/              # Directory where generated audio files are saved
@@ -30,7 +30,7 @@ Run the server:
 ```bash
 uvicorn main:app --reload
 
-##Testing
+**## Features**
 http://127.0.0.1:8000/docs
 
 
